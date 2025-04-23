@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2957B6CC2DB5F4AB00DB7181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B6CB2DB5F4AB00DB7181 /* AppDelegate.swift */; };
 		2957B6CE2DB5F4AB00DB7181 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B6CD2DB5F4AB00DB7181 /* SceneDelegate.swift */; };
-		2957B6D02DB5F4AB00DB7181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B6CF2DB5F4AB00DB7181 /* ViewController.swift */; };
 		2957B6D52DB5F4AE00DB7181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2957B6D42DB5F4AE00DB7181 /* Assets.xcassets */; };
 		2957B6D82DB5F4AE00DB7181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2957B6D62DB5F4AE00DB7181 /* LaunchScreen.storyboard */; };
 		2957B6E32DB5F4AE00DB7181 /* OptimizedImageScrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B6E22DB5F4AE00DB7181 /* OptimizedImageScrollerTests.swift */; };
@@ -18,7 +17,6 @@
 		2957B6FD2DB6089A00DB7181 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2957B6FC2DB6089A00DB7181 /* SnapKit */; };
 		2957B7002DB608C300DB7181 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 2957B6FF2DB608C300DB7181 /* Then */; };
 		2957B7052DB609CA00DB7181 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B7042DB609CA00DB7181 /* RootViewController.swift */; };
-		2957B7072DB609F200DB7181 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B7062DB609F200DB7181 /* CustomView.swift */; };
 		2957B7092DB6156100DB7181 /* CustomScrollViewFullLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B7082DB6156100DB7181 /* CustomScrollViewFullLoad.swift */; };
 		2957B70B2DB61A1300DB7181 /* CustomScrollViewOnDemand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957B70A2DB61A1300DB7181 /* CustomScrollViewOnDemand.swift */; };
 		29F6990F2DB61E650029E53B /* sample4.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F699052DB61E620029E53B /* sample4.png */; };
@@ -104,7 +102,6 @@
 		2957B6C82DB5F4AB00DB7181 /* OptimizedImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimizedImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2957B6CB2DB5F4AB00DB7181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2957B6CD2DB5F4AB00DB7181 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2957B6CF2DB5F4AB00DB7181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2957B6D42DB5F4AE00DB7181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2957B6D72DB5F4AE00DB7181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2957B6D92DB5F4AE00DB7181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,7 +111,6 @@
 		2957B6EC2DB5F4AE00DB7181 /* OptimizedImageScrollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizedImageScrollerUITests.swift; sourceTree = "<group>"; };
 		2957B6EE2DB5F4AE00DB7181 /* OptimizedImageScrollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizedImageScrollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2957B7042DB609CA00DB7181 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		2957B7062DB609F200DB7181 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		2957B7082DB6156100DB7181 /* CustomScrollViewFullLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollViewFullLoad.swift; sourceTree = "<group>"; };
 		2957B70A2DB61A1300DB7181 /* CustomScrollViewOnDemand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollViewOnDemand.swift; sourceTree = "<group>"; };
 		29F699052DB61E620029E53B /* sample4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample4.png; sourceTree = "<group>"; };
@@ -229,12 +225,10 @@
 		2957B6CA2DB5F4AB00DB7181 /* OptimizedImageScroller */ = {
 			isa = PBXGroup;
 			children = (
-				2957B70C2DB61E2100DB7181 /* Resources */,
 				2957B7032DB609A400DB7181 /* Scene */,
-				2957B7022DB6094000DB7181 /* Supporting Files */,
 				2957B7012DB6091B00DB7181 /* Applications */,
-				2957B6CF2DB5F4AB00DB7181 /* ViewController.swift */,
-				2957B6D62DB5F4AE00DB7181 /* LaunchScreen.storyboard */,
+				2957B70C2DB61E2100DB7181 /* Resources */,
+				2957B7022DB6094000DB7181 /* Supporting Files */,
 			);
 			path = OptimizedImageScroller;
 			sourceTree = "<group>";
@@ -259,6 +253,7 @@
 		2957B7012DB6091B00DB7181 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				2957B6D62DB5F4AE00DB7181 /* LaunchScreen.storyboard */,
 				2957B6CB2DB5F4AB00DB7181 /* AppDelegate.swift */,
 				2957B6CD2DB5F4AB00DB7181 /* SceneDelegate.swift */,
 			);
@@ -277,7 +272,6 @@
 			isa = PBXGroup;
 			children = (
 				2957B7042DB609CA00DB7181 /* RootViewController.swift */,
-				2957B7062DB609F200DB7181 /* CustomView.swift */,
 				2957B7082DB6156100DB7181 /* CustomScrollViewFullLoad.swift */,
 				2957B70A2DB61A1300DB7181 /* CustomScrollViewOnDemand.swift */,
 			);
@@ -558,8 +552,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2957B7072DB609F200DB7181 /* CustomView.swift in Sources */,
-				2957B6D02DB5F4AB00DB7181 /* ViewController.swift in Sources */,
 				2957B7092DB6156100DB7181 /* CustomScrollViewFullLoad.swift in Sources */,
 				2957B6CC2DB5F4AB00DB7181 /* AppDelegate.swift in Sources */,
 				2957B70B2DB61A1300DB7181 /* CustomScrollViewOnDemand.swift in Sources */,
